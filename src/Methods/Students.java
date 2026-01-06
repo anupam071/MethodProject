@@ -10,6 +10,7 @@ public class Students{
         System.out.println( s.Isodd(7));
        s.checkOddEven(12);
         System.out.println(s.isEven(10));
+        System.out.println(s.multiply(10,20));
     }
     void hello(){
         System.out.println("instance method");
@@ -31,5 +32,8 @@ public class Students{
     }
     boolean isEven(int num){
         return num%2==0;
+    }
+    int multiply(int a,int b){
+        return a*b;
     }
 }
