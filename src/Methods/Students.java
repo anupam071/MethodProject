@@ -9,6 +9,7 @@ public class Students{
         System.out.println(s.sum(1,4));
         System.out.println( s.Isodd(7));
        s.checkOddEven(12);
+        System.out.println(s.isEven(10));
     }
     void hello(){
         System.out.println("instance method");
@@ -27,5 +28,8 @@ public class Students{
             System.out.println("even");
         else
         System.out.println("odd");
+    }
+    boolean isEven(int num){
+        return num%2==0;
     }
 }
